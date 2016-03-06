@@ -1,0 +1,139 @@
+/* =======================
+	Custom Background Styles 
+======================= */
+
+/* white background */
+.white-bg {
+	background-color: #ffffff;
+}
+
+/* off white background */
+.off-white-bg {
+	background-color: #f1f1f1;
+}
+
+/* dark gray background */
+.dark-gray-bg {
+	background-color: #333333;
+}
+
+/* gray background */
+.gray-bg {
+	background-color: #666666;
+}
+
+/* light gray background */
+.light-gray-bg {
+	background-color: #f5f8fa;
+}
+
+/* light gray background */
+.dark-red-bg {
+	background-color: #990000;
+}
+
+.red-bg {
+	background-color: #cc0000;
+}
+
+/* light gray background */
+.light-red-bg {
+	background-color: #ff0000;
+}
+
+/* light gray background */
+.dark-blue-bg {
+	background-color: #0099cc;
+}
+
+/* light gray background */
+.light-blue-bg {
+	background-color: #0099ff;
+}
+
+/* ========================
+	Custom Circle Backgrounds
+======================== */
+
+/* dark red circle background */
+.dark-red-circle-bg {
+	background-color: #990000;
+	border: 50%;
+	width: 128px;
+}
+
+/* red circle background */
+.red-circle-bg {
+	background-color: #cc0000;
+	border: 50%;
+	width: 128px;
+}
+
+/* red circle background */
+.light-red-circle-bg {
+	background-color: #ff0000;
+	border: 50%;
+	width: 128px;
+}
+
+/* red circle background */
+.dark-gray-circle-bg {
+	background-color: #333333;
+	border: 50%;
+	width: 128px;
+}
+
+/* red circle background */
+.gray-circle-bg {
+	background-color: #333333;
+	border: 50%;
+	width: 128px;
+}
+
+/* red circle background */
+.light-gray-circle-bg {
+	background-color: #333333;
+	border: 50%;
+	width: 128px;
+}
+
+
+/* red circle background */
+.dark-blue-circle-bg {
+	background-color: #0099cc;
+	border: 50%;
+	width: 128px;
+}
+
+/* red circle background */
+.blue-circle-bg {
+	background-color: #0099cc;
+	border: 50%;
+	width: 128px;
+}
+
+
+/* red circle background */
+.light-blue-circle-bg {
+	background-color: #0099cc;
+	border: 50%;
+	width: 128px;
+}
+
+/* red top border */
+.red-border-top {
+	border-top: solid 5px #cc0000;
+	border-radius: 5px; 
+}
+
+/* light gray border */
+.light-gray-border-top {
+	border-top: solid 5px #cccccc;
+	border-radius: 5px; 
+}
+
+.blue-border-top {
+	border-top: solid 5px #0099cc;
+	border-radius: 5px; 
+}
+

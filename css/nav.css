@@ -1,0 +1,109 @@
+/* ======================
+	Default Nav Stylesheet
+	Author: @RobertGRaleigh
+====================== */
+
+/* ===========================
+	1. Desktop Navigation Styles
+	2. Tablet Navigation Styles
+	3. Mobile Navigation Styles
+/* ===========================
+
+/* ========================
+	Desktop Navigation Styles
+======================== */
+
+/* Default Navbar */
+nav.navbar.navbar-default.navbar-fixed-top {
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #fcfcfc;
+	border: none;
+	color: #cc0000;	
+}
+
+/* Inverse Navbar */
+nav.navbar.navbar-inverse.navbar-fixed-top {
+	height: 80px;
+	margin: 0px;
+	padding: 5px 0px 20px 0px;
+	background-color: #cc0000;
+	border: none;
+	color: #fcfcfc;
+}
+
+/* navbar brand style */
+a.navbar-brand {
+	font-family: 'Pacifico', cursive;
+	font-size: 2rem;
+	font-weight: normal;
+	text-transform: capitalize;
+	background: none !important;
+	color: #ffffff !important;
+}
+
+/* navbar brand hover style */
+a.navbar-brand:hover {
+	font-family: 'Pacifico', cursive;
+	font-size: 2rem;
+	font-weight: normal;
+	text-transform: capitalize;
+	background: none !important;
+	color: #fcfcfc !important;
+}
+
+/* default navbar links */
+.navbar-nav > li > a {
+	font-family: 'Arimo', 'Helvetica', 'Arial', sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: none;
+	border: none;
+}
+
+/* default nav links */
+.navbar-nav > li > a:hover {
+	font-family: 'Arimo', 'Helvetica', 'Arial', sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: underline;
+	background: none !important;
+	border: none;
+}
+
+button.btn.btn-primary.navbar-btn {
+	font-family: 'Arimo', 'Helvetica', 'Arial', sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	background-color: #0099cc;
+	text-transform: uppercase;
+}
+
+button.btn.btn-primary.navbar-btn:hover {
+	font-family: 'Arimo', 'Helvetica', 'Arial', sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	background-color: #0099dd;
+	text-transform: uppercase;
+}
+
+/* Contact Info Menu */
+#contact-info {
+	border-top: solid 2px #cccccc;
+	border-bottom: solid 2px #cccccc;
+}
+
+.dropdown-menu > li > a:hover {
+	background-color: #ffffff;
+	text-transform: capitalize;
+}
+
+
+.dropdown-menu > li > a:hover {
+	background-color: #cccccc;
+	text-transform: capitalize;
+}

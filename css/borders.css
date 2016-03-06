@@ -1,0 +1,14 @@
+/* border bottom */
+.border-bottom {
+	border-bottom: solid 2px;
+}
+
+/* red border */
+.red-border {
+	border-color: #cc0000;
+}
+
+.border-gray-top {
+	border-top: solid 2px #cccccc;
+	border-radius: 5px; 
+}

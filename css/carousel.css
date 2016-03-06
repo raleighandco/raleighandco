@@ -1,0 +1,98 @@
+/* ============= 
+	Quote Carousel 
+============= */
+
+/* quote carousel */
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+
+/* quote carousel */
+#quote-carousel .carousel-control {
+    background: none;
+    color: #ffffff;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+
+/* quote carousel */
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+
+/* quote carousel */
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+
+/* quote carousel */
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+
+/* quote carousel */
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #ffffff;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+
+/* quote carousel */
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border: 4px solid #f5f8fa;
+    opacity: 1;
+    overflow: hidden;
+}
+
+/* quote carousel */
+.carousel-inner {
+    min-height: 300px;
+}
+
+/* quote carousel */
+.item blockquote {
+	border-left: none;
+	margin: 0;
+	color: #f5f8fa;
+}
+
+/* quote carousel */
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+/* quote carousel */
+.item blockquote p:after {
+    content: "\f10e";
+    font-family: 'Fontawesome';
+    float: right;
+    margin-right: 10px;
+}
+
+/* carousel blockquote */
+blockquote small, blockquote .small {
+	color: #f5f8fa;
+}

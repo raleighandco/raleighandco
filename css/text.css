@@ -1,0 +1,510 @@
+/* ======================
+	Default Text Stylesheet
+	Author: @RobertGRaleigh
+====================== */
+
+/* ====================================
+	Default Text Stylesheet Contents
+	1. Extra Large Desktop Viewport Sizes
+	2. Large Desktop Viewport Text Styles
+	3. Large Tablet Viewport Text Styles
+	4. Small Tablet Viewport Text Styles
+	5. Mobile Phone Viewport Text Styles
+	6. Default Text Color Styles
+	7. Modified Bootstrap Styles
+	8. Custom Brand + Font Text Styles
+/* ====================================
+
+/* ============================
+	Extra Large Desktop Viewports
+============================ */
+@media screen
+	and (min-device-width: 1200px)
+	and (max-device-width: 1600px) {
+
+	/* default html font-size */
+	html {
+		font-size: 100.0%;
+	}
+
+	/* default body font-size */
+	body {
+		font-size: 1em;
+	}
+
+	/* default h1 sizing */
+	h1 {
+		font-size: 8rem;
+		margin: 0;
+		padding: 0;
+		line-height: 1.05em;
+	}
+
+	/* default h2 sizing */
+	h2 {
+		font-size: 6rem;
+		margin: 0;
+		padding: 0;
+		line-height: 1.25em;
+	}
+
+	/* default h3 sizing */
+	h3 {
+		font-size: 2rem;
+		margin: 0;
+		padding: 0;
+		line-height: 1.05em;
+	}
+
+	/* default h4 sizing */
+	h4 {
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
+		line-height: 1.05em;
+	}
+
+	/* default h5 sizing */
+	h5 {
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
+		line-height: 1.05em;
+	}
+
+	/* default h6 sizing */
+	h6 {
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
+		line-height: 1.05em;
+	}
+
+	/* default p sizing */
+	p {
+		font-family: 'Verdana', 'Arial', sans-serif;
+		font-size: 1rem;
+		margin: 0;
+		padding: 0;
+		line-height: 1.05em;
+	}
+
+} /* End of Extra Large Desktop Viewport */
+
+/* ======================
+	Large Desktop Viewports
+=======================*/
+
+@media screen
+	and (min-device-width: 1200px)
+	and (max-device-width: 1600px) {
+
+	/* default html font-size */
+	html {
+		font-size: 100.0%;
+	}
+
+	/* default body font-size */
+	body {
+		font-size: 1em;
+	}
+
+	/* default h1 sizing */
+	h1 {
+		font-size: 3rem;
+		line-height: 1.05em;
+	}
+
+	/* default h2 sizing */
+	h2 {
+		font-size: 2.5rem;
+	}
+
+	/* default h3 sizing */
+	h3 {
+		font-size: 2rem;
+	}
+
+	/* default h4 sizing */
+	h4 {
+		font-size: 1rem;
+	}
+
+	/* default h5 sizing */
+	h5 {
+		font-size: 1rem;
+	}
+
+	/* default h6 sizing */
+	h6 {
+		font-size: 1rem;
+	}
+
+	/* default p sizing */
+	p {
+		font-size: 1rem;
+	}
+
+} /* End of Extra Large Desktop Viewport */
+
+/* =====================
+	Large Tablet Viewports
+===================== */
+
+@media screen
+	and (min-device-width: 1200px)
+	and (max-device-width: 1600px) {
+
+	/* default html font-size */
+	html {
+		font-size: 100.0%;
+	}
+
+	/* default body font-size */
+	body {
+		font-size: 1em;
+	}
+
+	/* default h1 sizing */
+	h1 {
+		font-size: 3rem;
+		line-height: 1.125em;
+	}
+
+	/* default h2 sizing */
+	h2 {
+		font-size: 2.5rem;
+	}
+
+	/* default h3 sizing */
+	h3 {
+		font-size: 2rem;
+	}
+
+	/* default h4 sizing */
+	h4 {
+		font-size: 1rem;
+	}
+
+	/* default h5 sizing */
+	h5 {
+		font-size: 1rem;
+	}
+
+	/* default h6 sizing */
+	h6 {
+		font-size: 1rem;
+	}
+
+	/* default p sizing */
+	p {
+		font-size: 1rem;
+	}
+
+/* =====================
+	Small Tablet Viewports
+===================== */
+
+@media screen
+	and (min-device-width: 1200px)
+	and (max-device-width: 1600px) {
+
+	/* default html font-size */
+	html {
+		font-size: 100.0%;
+	}
+
+	/* default body font-size */
+	body {
+		font-size: 1em;
+	}
+
+	/* default h1 sizing */
+	h1 {
+		font-size: 3rem;
+		line-height: 1.25em;
+	}
+
+	/* default h2 sizing */
+	h2 {
+		font-size: 2.5rem;
+	}
+
+	/* default h3 sizing */
+	h3 {
+		font-size: 2rem;
+	}
+
+	/* default h4 sizing */
+	h4 {
+		font-size: 1rem;
+	}
+
+	/* default h5 sizing */
+	h5 {
+		font-size: 1rem;
+	}
+
+	/* default h6 sizing */
+	h6 {
+		font-size: 1rem;
+	}
+
+	/* default p sizing */
+	p {
+
+		font-size: 1rem;
+	}
+
+/* ===============
+	Mobile Viewports
+=============== */
+
+@media screen
+	and (min-device-width: 1200px)
+	and (max-device-width: 1600px) {
+
+	/* default html font-size */
+	html {
+		font-size: 100.0%;
+	}
+
+	/* default body font-size */
+	body {
+		font-size: 1em;
+	}
+
+	/* default h1 sizing */
+	h1 {
+		font-size: 3rem;
+		line-height: 1.25em;
+	}
+
+	/* default h2 sizing */
+	h2 {
+		font-size: 2.5rem;
+	}
+
+	/* default h3 sizing */
+	h3 {
+		font-size: 2rem;
+	}
+
+	/* default h4 sizing */
+	h4 {
+		font-size: 1rem;
+	}
+
+	/* default h5 sizing */
+	h5 {
+		font-size: 1rem;
+	}
+
+	/* default h6 sizing */
+	h6 {
+		font-size: 1rem;
+	}
+
+	/* default p sizing */
+	p {
+		font-size: 1rem;
+	}
+
+/* ========================
+	Default Text Color Styles
+======================== */
+
+/* white text */
+.white-text {
+	color: #ffffff;
+}
+
+/* off white text */
+.off-white-text {
+	color: #f1f1f1;
+}
+
+/* black text */
+.black-text {
+	color: #000000;
+}
+
+/* dark gray text */
+.dark-gray-text {
+	color: #333333;
+}
+
+/* gray text */
+.gray-text {
+	color: #666666;
+}
+
+/* light gray text */
+.light-gray-text {
+	color: #cccccc;
+}
+
+/* off white text */
+.dark-red-text {
+	color: #990000;
+}
+
+/* red text */
+.red-text {
+	color: #cc0000;
+}
+
+/* off white text */
+.light-red-text {
+	color: #ff0000;
+}
+
+/* dark blue text */
+.dark-blue-text {
+	color: #990000;
+}
+
+/* blue text */
+.blue-text {
+	color: #cc0000;
+}
+
+/* light blue text */
+.light-blue-text {
+	color: #ff0000;
+}
+
+/* dark white text */
+.dark-green-text {
+	color: #990000;
+}
+
+/* green text */
+.green-text {
+	color: #cc0000;
+}
+
+/* light green text */
+.light-green-text {
+	color: #ff0000;
+}
+
+/* ========================
+	Modified Bootstrap Styles
+======================== */
+
+/* panel title */
+.panel-title {
+	font-size: 2rem;
+	color: #333333;
+}
+
+/* ==============================
+	Custom Brand + Font Text Styles
+============================== */
+
+/* custom h1 brand style */
+.h1-brand {
+	font-family: 'Pacifico', 'cursive';
+	font-size: 7rem;
+	font-weight: normal;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+/* custom h2 brand style */
+.h2-brand {
+	font-family: 'Pacifico', 'cursive';
+	font-size: 6rem;
+	font-weight: normal;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+/* custom h3 brand style */
+.h3-brand {
+	font-family: 'Pacifico', 'cursive';
+	font-size: 4rem;
+	font-weight: normal;
+	line-height: normal;
+	text-transform: capitalize;
+}
+
+/* custom h4 brand style */
+.h4-brand {
+	font-family: 'Arimo', 'Helvetica', 'Arial',  'sans-serif';
+	font-size: 3rem;
+	font-weight: normal;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+/* custom h5 brand style */
+.h5-brand {
+	font-family: 'Arimo', 'Helvetica', 'Arial',  'sans-serif';
+	font-size: 4rem;
+	font-weight: normal;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+/* custom h6 brand style */
+.h6-brand {
+	font-family: 'Arimo', 'Helvetica', 'Arial',  'sans-serif';
+	font-size: 4rem;
+	font-weight: normal;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+/* custom paragraph style */
+.p-brand {
+	font-family: 'Nobile', 'Helvetica', 'Arial',  'sans-serif';
+	font-weight: normal;
+	line-height: normal;
+}
+
+/* custom link styling */
+.a-brand {
+	font-family: 'Nobile', 'Helvetica', 'Arial',  'sans-serif';
+	font-weight: normal;
+	line-height: normal;
+	color: #0099cc;
+}
+
+/* custom link styling */
+.a-brand:hover {
+	font-family: 'Nobile', 'Helvetica', 'Arial',  'sans-serif';
+	font-weight: normal;
+	line-height: normal;
+	color: #0099cc;
+}
+
+.span-brand {
+	font-family: 'Nobile', 'Helvetica', 'Arial',  'sans-serif';
+}
+
+span {
+	font-family: 'Nobile', 'Helvetica', 'Arial',  'sans-serif';
+}
+
+a {
+	color: #333333;
+}
+
+a:hover {
+	color: #3c3c3c;
+}
+		
+.uppercase {
+	text-transform: uppercase;
+}
+
+.large-text {
+	font-size: 1.2rem;
+}
+		
+		.label {
+			text-transform: uppercase;
+			padding: 2px 2px 2px 2px;
+		}

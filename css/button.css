@@ -1,0 +1,72 @@
+/* ======================== 
+	Default Button Stylesheet
+	Author: @RobertGRaleigh
+======================== */
+
+/* ===========================
+	1. Desktop Navigation Styles  
+	2. Tablet Navigation Styles
+	3. Mobile Navigation Styles
+/* ===========================
+
+/* ========================
+	Desktop Navigation Styles 
+======================== */
+
+/* button */
+.btn {
+	font-family: 'Nobile', 'Helvetica', 'Arial',  'sans-serif';
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: normal;
+	text-transform: uppercase;
+	text-align: left;	
+}
+
+/* button default */
+.btn-default { 
+	background-color: #333333;
+	color: #ffffff;
+}
+
+/* button inverse */
+.btn-inverse {
+	background-color: #f1f1f1;
+	color: #333333
+}
+
+/* button primary */
+.btn-primary {
+	background-color: #0099cc;
+	color: #ffffff;
+}
+
+/* button secondary */
+.btn-secondary {
+	background-color: #cc0000;
+	color: #ffffff;
+}
+
+/* button info */
+.btn-info {
+	background-color: #;
+	color: #ffffff;	
+}
+
+/* button success */
+.btn-success {
+	background-color: #009900;
+	color: #ffffff;
+}
+
+/* button warning */
+.btn-warning {
+	background-color: #ff9900;
+	color: #ffffff;
+}
+
+/* button danger */
+.btn-danger {
+	background-color: #ff0000;	
+	color: #ffffff;
+}

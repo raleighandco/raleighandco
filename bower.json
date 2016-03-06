@@ -1,0 +1,29 @@
+{
+  "name": "raleighandco",
+  "description": "An information site for Raleigh and Company, LLC.",
+  "main": "index.js",
+  "authors": [
+    "@RobertGRaleigh"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "homepage": "http://www.raleighand.co",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#~4.5.0",
+    "bootswatch": "~3.3.6+1"
+  }
+}

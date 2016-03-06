@@ -1,0 +1,485 @@
+/* ========================
+	Default Layout Stylesheet
+	Author: @RobertGRaleigh
+======================== */
+
+/* ====================================
+	1. Header
+	2. Sections
+	3. Footer
+	4. Lists
+	5. Tables
+==================================== */
+
+/* ======================
+	Default Document Styles
+====================== */
+
+/* html */
+html {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+/* body */
+body {
+	margin: 0px;
+	padding-top: 80px;
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+/* ====================
+	Default Header Styles
+==================== */
+
+/* default header */
+.default-header {
+	background-color: #ffffff;
+	width: auto;
+	height: auto;
+}
+
+/* inverse header */
+.inverse-header {
+	background-color: #333333;
+	width: auto;
+	height: auto;
+}
+
+/* image header */
+.img-header {
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+/* extra short header */
+.xs-header {
+	height: 120px;
+	padding: 40px 0px 40px 0px;
+}
+
+/* short header */
+.sh-header {
+	height: 323px;
+	padding: 40px 0px 40px 0px;
+}
+
+/* regular header */
+.rg-header {
+	height: 520px;
+	padding: 40px 0px 40px 0px;
+}
+
+/* tall header */
+.ta-header {
+	height: 700px;
+	padding: 40px 0px 40px 0px;
+}
+
+/* extra tall header */
+.xt-header {
+	height: 800px;
+	padding: 40px 0px 40px 0px;
+}
+
+/* ====================
+	Default Section Styles
+==================== */
+
+/* extra short section */
+.xs-section {
+	height: 120px;
+}
+
+/* short section */
+.sh-section {
+	height: 323px;
+}
+
+/* regular section */
+.reg-section {
+	height: 520px;
+	padding: 40px 0px 40px 0px;
+}
+
+/* tall section */
+.ta-section {
+	height: 700px
+}
+
+/* extra tall section */
+.xt-section {
+	height: 800px;
+}
+
+/* ====================
+	Default Footer Styles
+==================== */
+
+footer {
+	padding: 40px 0px 80px 0px;
+}
+
+.footer-li {
+	/* come back, and fix the ideal line height */
+}
+
+.footer-h1 {
+
+}
+
+.footer-h2 {
+
+}
+
+.footer-h3 {
+	font-size: 2rem;
+	line-height: normal;
+	margin-left: 0px;
+}
+
+.footer-h4, .footer-h5, .footer-h6 {
+
+}
+
+/* footer paragraph */
+.footer-p {
+	font-family: 'Arimo', 'Verdana', 'Arial', sans-serif;
+	font-size: 1.2rem;
+	font-weight: bold;
+	line-height: normal;
+	color: #333333;
+}
+
+/* Footer Link */
+.contact-info-a {
+	margin-left: 5px;
+	font-family: 'Arimo', 'Verdana', 'Arial', sans-serif;
+	font-size: 1.2rem !important;
+	font-weight: bold;
+	text-decoration: none;
+	/* come back, and fix the ideal line height */
+	color: #333333 !important;
+}
+
+/* Footer Link */
+.contact-info-a:hover {
+	margin-left: 5px;
+	font-family: 'Arimo', 'Verdana', 'Arial', sans-serif;
+	font-size: 1.2rem !important;
+	font-weight: bold;
+	text-decoration: none;
+	/* come back, and fix the ideal line height */
+	color: #cc0000 !important;
+}
+
+/* Footer Link */
+.footer-a {
+	margin-left: 5px;
+	font-family: 'Arimo', 'Verdana', 'Arial', sans-serif;
+	font-size: 1.2rem !important;
+	font-weight: bold;
+	text-decoration: none;
+	/* come back, and fix the ideal line height */
+	color: #333333 !important;
+}
+
+/* Places icon before footer links */
+.footer-a {
+	margin-left: 5px;
+	font-family: 'Arimo', 'Verdana', 'Arial', sans-serif;
+	font-size: 1.2rem !important;
+	font-weight: normal;
+	text-decoration: none;
+	/* come back, and fix the ideal line height */
+	color: #fcfcfc !important;
+}
+
+/* Places icon before footer links */
+.footer-a:hover {
+	margin-left: 5px;
+	font-family: 'Arimo', 'Verdana', 'Arial', sans-serif;
+	font-size: 1.2rem !important;
+	font-weight: normal;
+	text-decoration: underline;
+	color: #fcfcfc !important;
+}
+
+/* This is the footer social link */
+.footer-social-a {
+	margin-left: 5px;
+	font-family: 'Arimo', 'Verdana', 'Arial', sans-serif;
+	font-size: 1.2rem !important;
+	font-weight: normal;
+	text-decoration: none;
+	/* come back, and fix the ideal line height */
+	color: #fcfcfc !important;
+}
+
+/* Controls the social link icon */
+.footer-social-a:hover {
+	margin-left: 5px;
+	font-family: 'Arimo', 'Verdana', 'Arial', sans-serif;
+	font-size: 1.2rem !important;
+  font-weight: bold;
+	text-decoration: none;
+	color: #fdfdfd !important;
+}
+
+/* Controls the social link icon on hover */
+.footer-social-a::before, .footer-social-a:active::before {
+	font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+	text-decoration: none;
+	content: none;
+}
+
+.footer-brand {
+	font-family: 'Pacifico', cursive;
+	font-weight: normal;
+	font-size: 2rem;
+	color: #333333;
+}
+
+/* default footer */
+.default-footer {
+	background-color: #ffffff;
+	width: auto;
+	height: auto;
+}
+
+/* inverse footer */
+.inverse-footer {
+	background-color: #cccccc;
+	width: auto;
+	height: auto;
+}
+
+/* extra short footer */
+.extra-short-footer {
+	height: 120px;
+}
+
+/* short footer */
+.short-footer {
+	height: 323px;
+	padding: 40px 0px 40px 0px;
+}
+
+/* footer */
+.average-footer {
+	height: 520px;
+}
+
+/* tall footer */
+.tall-footer {
+	height: 700px
+}
+
+/* extra tall footer */
+.extra-tall-footer {
+	height: 800px;
+}
+
+/* ======================
+	Copyright Notice Styles
+====================== */
+
+/* default copyright section */
+#copyright-section {
+	margin: 0px;
+	padding: 40px 0px 40px 0px;
+	height: 96px;
+}
+
+#copyright-notice {
+
+}
+
+.panel-img {
+	padding: 15px;
+	overflow: hidden;
+}
+
+.padded-row {
+	padding: 40px 0px 0px 0px;
+}
+
+section {
+	padding: 40px 0px 40px 0px;
+}
+
+    .grid-divider {
+    	position: relative;
+    	padding: 0;
+    }
+    .grid-divider >[class*='col-'] {
+    	position: static;
+    }
+    .grid-divider >[class*='col-']:nth-child(n+2):before {
+    	content: "";
+    	border-left: 1px solid #DDD;
+    	position: absolute;
+    	top: 0;
+    	bottom: 0;
+    }
+    .col-padding {
+    	padding: 0 15px;
+    }
+
+/* home header */
+#home-header {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 700px;
+}
+
+/* home header */
+#contact-us-banner {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+}
+
+/* about header */
+#about-header {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 323px;
+	margin: 0px;
+	padding: 40px 0px 40px 0px;
+}
+
+/* products header */
+#services-header {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 323px;
+	margin: 0px;
+	padding: 40px 0px 40px 0px;
+}
+
+/* products header */
+#products-header {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 323px;
+	margin: 0px;
+	padding: 40px 0px 40px 0px;
+}
+
+/* portfolio header http://loremflickr.com/1366/700/portland */
+#portfolio-header {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	margin: 0px;
+	padding: 100px 0px 100px 0px;
+}
+
+/* experience header */
+#experience-header {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+/* experience header */
+#blog-header {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+/* newsletter section */
+#newsletter-section {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;	
+}
+
+/* web development */
+#web-development-header {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	height: 443px;
+}
+
+/* product management */
+#product-management-header {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	height: 443px;
+}
+
+/* web development */
+#project-management-header {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	height: 443px;
+}
+
+/* copywriting header */
+#copywriting-header {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	height: 443px;
+}
+
+/* project management header */
+#web-development-header {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	height: 443px;
+}
+
+#websites-card {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	height: 443px;
+}
+
+#stores-card {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	height: 443px;
+}
+
+#blogs-card {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	height: 443px;
+}
+
+#carts-card {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	height: 443px;
+}
+
+#hosting-card {
+	background-image: url(/img/rocket-man-ian-sane.jpg);
+	height: 443px;
+}
+
+/* img card */
+.img-card { 
+	width: 543px;
+	height: 400px;
+	margin: 0px;
+	padding: 40px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}

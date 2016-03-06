@@ -1,0 +1,24 @@
+/* inline-left-list */
+.inline-left-list {
+	margin: 5px 0px 5px 0px;
+}
+
+/* inline-right-list */
+.inline-right-list {
+	margin: 5px 0px 5px 0px;
+}
+
+/* location section */
+.site-title {
+	font-family: 'Pacifico', cursive;
+	font-weight: normal;
+	font-size: 3rem;
+	color: #cc0000;
+}
+
+/* location section */
+.location-section {
+	background-image: url(http://placehold.it/1366/500);
+	background-position: center;
+	background-size: cover;
+}
