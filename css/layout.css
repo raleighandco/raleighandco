@@ -292,6 +292,7 @@ footer {
 
 /* default copyright section */
 #copyright-section {
+	font-family: 'Arimo', 'Verdana', 'Arial', sans-serif;
 	margin: 0px;
 	padding: 40px 0px 40px 0px;
 	height: 96px;
